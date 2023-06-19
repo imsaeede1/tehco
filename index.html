@@ -1,299 +1,1002 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <!--============== CSS =============-->
+    <link rel="stylesheet" href="./Styles.css" />
+    <!--============== Bootstrap link =============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <!-- _____ Slick Slider _____ -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
+    />
+  </head>
 
-  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
-  <link rel="stylesheet" href="style.css" />
+  <body>
+    <!-- showcase section -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade position-relative"
+      data-bs-ride="carousel"
+    >
+      <div
+        class="head-container d-flex justify-content-between align-items-center"
+      >
+        <button
+          class="navbar-toggler d-block d-lg-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div
+          dir="rtl"
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+              Offcanvas
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              Some text as placeholder. In real life you can have the elements
+              you have chosen. Like, text, images, lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+              >
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-lg-flex justify-content-center align-items-center">
+          <button class="portal-btn btn me-2 me-lg-3">
+            پرتال مشتریان <bdi><i class="fa fa-plus text-white"></i></bdi>
+          </button>
+          <div class="d-flex me-4">
+            <div class="d-flex flex-column align-items-end">
+              <span
+                ><strong style="color: #424f59" class="me-1">تلفن:</strong
+                >0219137651
+              </span>
+              <span class="email-font"
+                >info@tehco.ir<strong style="color: #424f59" class="me-1"
+                  >:ایمیل</strong
+                >
+              </span>
+            </div>
+            <img src="img/headset.png" />
+          </div>
+        </div>
+        <a class="navbar-brand" href="#"><img src="img/logo-tehco.png" /></a>
+      </div>
+      <div class="nav-container d-none d-lg-block">
+        <nav
+          class="navbar sticky-top navbar-expand-lg navbar-dark bg-blue p-2 my-0"
+          dir="rtl"
+        >
+          <div
+            class="collapse d-flex justify-content-between navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >خانه <span class="sr-only"></span
+                ></a>
+              </li>
 
-  <title>Tehco</title>
-</head>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown-2"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  خدمات
+                  <i class="fa fa-angle-double-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown-1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  نمونه کار
+                  <i class="fa fa-angle-double-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown-1">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">وبلاگ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center text-light">
+              <div class="d-flex">
+                <i class="fab fa-linkedin mx-2 icons"></i>
+                <i class="fab fa-instagram mx-2 icons"></i>
+                <i class="fab fa-twitter mx-2 icons"></i>
+              </div>
 
-<body>
+              <form class="form-inline d-flex my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2 searchbar"
+                  type="search"
+                  placeholder="جستجو..."
+                  aria-label="Search"
+                />
+                <button
+                  class="btn my-2 my-sm-0"
+                  style="margin-right: -40px"
+                  type="submit"
+                >
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="carousel-inner height-slider">
+        <div class="carousel-item h-100 active" data-bs-interval="5000">
+          <img src="img/slider-one.jpg" class="d-block w-100 h-100" alt="..." />
+          <div
+            class="carousel-caption-one d-flex flex-column-reverse flex-sm-column"
+          >
+            <div class="rotating-text-wrapper">
+              <h2>ارائه و اجرا برنامه نویسی</h2>
+            </div>
+            <div class="rotating-text-wrapper2">
+              <h2>
+                خدمات تولید نرم افزار، وب افزار <br />ارائه خدمات تولید و
+                پشتیبانی نرم افزاری و طراحی سایت
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item h-100" data-bs-interval="5000">
+          <img src="img/slider-two.jpg" class="d-block w-100 h-100" alt="..." />
+          <div class="carousel-caption-unique">
+            <div class="banner">
+              <div class="overlay d-flex flex-column align-items-center">
+                <span class="text-ani"
+                  >تهکو پلی به معرفی شما در دنیای دیجیتال
+                </span>
+                <h1 class="text-ani-2">خدمات سئو و تولید محتوا</h1>
+                <span class="text-ani-3">
+                  ارائه خدمات بهینه سازی موتورهای جستجو و بازاریابی محتوایی
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev d-none d-md-block"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next d-none d-md-block"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <!-- Services section -->
-    <div id="services" class="container-xxl container-xl container-lg">
-      <ul class="nav nav-tabs d-none d-sm-flex " id="myTab" role="tablist">
+    <div>
+      <div
+        class="d-flex text-center justify-content-center align-items-center services-img"
+      >
+        <h1 class="font-tehco">
+          شرکت <strong class="text-blue">تهکو </strong> ارائه خدمات فناوری
+          اطلاعات
+        </h1>
+      </div>
+    </div>
+    <div
+      dir="rtl"
+      id="services"
+      class="container-xxl container-xl container-lg"
+    >
+      <ul class="nav nav-tabs d-none d-sm-flex" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo" type="button" role="tab" aria-controls="seo" aria-selected="true">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <img class="img-services" src="img/seo.png"/>
+          <button
+            class="nav-link active"
+            id="seo-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#seo"
+            type="button"
+            role="tab"
+            aria-controls="seo"
+            aria-selected="true"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img class="img-services" src="img/seo.png" />
               <p>سئو و بازاریابی دیجیتال</p>
             </div>
           </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website" type="button" role="tab" aria-controls="website" aria-selected="false">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <img class="img-services" src="img/website.png"/>
+          <button
+            class="nav-link"
+            id="website-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#website"
+            type="button"
+            role="tab"
+            aria-controls="website"
+            aria-selected="false"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img class="img-services" src="img/website.png" />
               <p>طراحی وبسایت</p>
             </div>
           </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="app-tab" data-bs-toggle="tab" data-bs-target="#app" type="button" role="tab" aria-controls="app" aria-selected="false">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <img class="img-services" src="img/app.png"/>
+          <button
+            class="nav-link"
+            id="app-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#app"
+            type="button"
+            role="tab"
+            aria-controls="app"
+            aria-selected="false"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img class="img-services" src="img/app.png" />
               <p>تولید اپلیکیشن</p>
             </div>
           </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="organization-tab" data-bs-toggle="tab" data-bs-target="#organization" type="button" role="tab" aria-controls="organization" aria-selected="false">
-            <div class="d-flex flex-column justify-content-center align-items-center">
+          <button
+            class="nav-link"
+            id="organization-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#organization"
+            type="button"
+            role="tab"
+            aria-controls="organization"
+            aria-selected="false"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
               <img class="img-services" src="img/organization.png" />
               <p>راهکارهای اداری و سازمانی</p>
             </div>
           </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="host-tab" data-bs-toggle="tab" data-bs-target="#host" type="button" role="tab" aria-controls="host" aria-selected="false">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <img class="img-services" src="img/host.png"/>
-              <p> هاست و سرور</p>
+          <button
+            class="nav-link"
+            id="host-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#host"
+            type="button"
+            role="tab"
+            aria-controls="host"
+            aria-selected="false"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img class="img-services" src="img/host.png" />
+              <p>هاست و سرور</p>
             </div>
           </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="network-tab" data-bs-toggle="tab" data-bs-target="#network" type="button" role="tab" aria-controls="network" aria-selected="false">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <img class="img-services" src="img/network.png"/>
-              <p> شبکه و زیرساخت</p>
+          <button
+            class="nav-link"
+            id="network-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#network"
+            type="button"
+            role="tab"
+            aria-controls="network"
+            aria-selected="false"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img class="img-services" src="img/network.png" />
+              <p>شبکه و زیرساخت</p>
             </div>
           </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button" role="tab" aria-controls="support" aria-selected="false">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <img class="img-services" src="img/support.png"/>
-              <p> پشتیبانی و وب افزار</p>
+          <button
+            class="nav-link"
+            id="support-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#support"
+            type="button"
+            role="tab"
+            aria-controls="support"
+            aria-selected="false"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img class="img-services" src="img/support.png" />
+              <p>پشتیبانی و وب افزار</p>
             </div>
           </button>
         </li>
       </ul>
-      <div class="tab-navigation d-block d-sm-none">              
+      <div class="tab-navigation d-block d-sm-none">
         <select class="select-box" id="select-box">
           <option value="seo">سئو و بازاریابی دیجیتال</option>
           <option value="website">طراحی وبسایت</option>
           <option value="app">تولید اپلیکیشن</option>
-          <option value="organization"> راهکارهای اداری و سازمانی</option>
-          <option value="host"> هاست و سرور</option>
-          <option value="network"> شبکه و زیرساخت</option>
+          <option value="organization">راهکارهای اداری و سازمانی</option>
+          <option value="host">هاست و سرور</option>
+          <option value="network">شبکه و زیرساخت</option>
           <option value="support">پشتیبانی و وب افزار</option>
         </select>
       </div>
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="seo" role="tabpanel" aria-labelledby="seo-tab">
+        <div
+          class="tab-pane fade show active"
+          id="seo"
+          role="tabpanel"
+          aria-labelledby="seo-tab"
+        >
           <div class="d-flex justify-content-between align-items-center mt-2">
-           <div class="w-custom">
-            <h2 class="text-tehco-blue"><bdi class="text-dark">سئو و</bdi> بازاریابی دیجیتال</h2>
-            <h5 class="mb-3 head-services text-center text-md-start">با دیجیتال مارکتینگ، کسب وکارتان را به یک ماشین پولساز تبدیل کن.</h5>
-           <div class="w-100 text-justify-services">
-            <span class="text-services">
-              هدف هر کسب و کاری، توسعه، افزایش فروش و کسب درآمد بیشتر است. برای تحقق این امر، شما نیاز دارید تا اصول بازاریابی مدرن را در کسب و کارتان پیاده سازی کنید. دیجیتال مارکتینگ یا بازاریابی دیجیتال شامل تمامی ابزارها و فعالیت هایی است که برای بازاریابی محصولات و خدمات در بستر دیجیتال مورد استفاده قرار می گیرند.دیجیتال مارکتینگ حوزه های گوناگونی نظیر سئو و بهینه سازی سایت، تولید محتوا، بازاریابی شبکه های اجتماعی، تبلیغات و کمپین های اینترنتی، ایمیل مارکتینگ و… را شامل می شود که هر کدام اگر به صورت اصولی پیاده سازی و اجرا شوند، می توانند به شکل معجزه آسایی کسب و کارتان را رونق بخشند!
-              سایت خود را به صفحه اول گوگل برسانید و مشتری های خود را چند برابر کنید. شما با سفارش طراحی سایت خود از تهکو قدم اول در سئو سایت خود را برداشته اید، زیرا اولین اصل در طراحی سایت رعایت اصول فنی سئو است.
-                      </span>
-                      <br>
-                      <div class="w-100 d-flex justify-content-start"><button class="more-info text-white text-center d-flex justify-content-center align-items-center">  اطلاعات بیشتر <i class="fa fa-arrow-left icon-services ms-2" ></i></button></div>
-                      <img class="img-services-mobile d-block d-md-none " src="img/seo-content.jpg"/>
-           </div> 
-           </div>
-           <div class="w-50 d-none d-md-flex justify-content-center"><img class="img-seo-services" src="img/seo-content.jpg"/></div>
+            <div class="w-custom">
+              <h2 class="text-tehco-blue">
+                <bdi class="text-dark">سئو و</bdi> بازاریابی دیجیتال
+              </h2>
+              <h5 class="mb-3 head-services text-center text-md-start">
+                با دیجیتال مارکتینگ، کسب وکارتان را به یک ماشین پولساز تبدیل کن.
+              </h5>
+              <div class="w-100 text-justify-services">
+                <span class="text-services">
+                  هدف هر کسب و کاری، توسعه، افزایش فروش و کسب درآمد بیشتر است.
+                  برای تحقق این امر، شما نیاز دارید تا اصول بازاریابی مدرن را در
+                  کسب و کارتان پیاده سازی کنید. دیجیتال مارکتینگ یا بازاریابی
+                  دیجیتال شامل تمامی ابزارها و فعالیت هایی است که برای بازاریابی
+                  محصولات و خدمات در بستر دیجیتال مورد استفاده قرار می
+                  گیرند.دیجیتال مارکتینگ حوزه های گوناگونی نظیر سئو و بهینه سازی
+                  سایت، تولید محتوا، بازاریابی شبکه های اجتماعی، تبلیغات و کمپین
+                  های اینترنتی، ایمیل مارکتینگ و… را شامل می شود که هر کدام اگر
+                  به صورت اصولی پیاده سازی و اجرا شوند، می توانند به شکل معجزه
+                  آسایی کسب و کارتان را رونق بخشند! سایت خود را به صفحه اول گوگل
+                  برسانید و مشتری های خود را چند برابر کنید. شما با سفارش طراحی
+                  سایت خود از تهکو قدم اول در سئو سایت خود را برداشته اید، زیرا
+                  اولین اصل در طراحی سایت رعایت اصول فنی سئو است.
+                </span>
+                <br />
+                <div class="w-100 d-flex justify-content-start">
+                  <button
+                    class="more-info text-white text-center d-flex justify-content-center align-items-center"
+                  >
+                    اطلاعات بیشتر
+                    <i class="fa fa-arrow-left icon-services ms-2"></i>
+                  </button>
+                </div>
+                <img
+                  class="img-services-mobile d-block d-md-none"
+                  src="img/seo-content.jpg"
+                />
+              </div>
+            </div>
+            <div class="w-50 d-none d-md-flex justify-content-center">
+              <img class="img-seo-services" src="img/seo-content.jpg" />
+            </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="website" role="tabpanel" aria-labelledby="website-tab">
+        <div
+          class="tab-pane fade"
+          id="website"
+          role="tabpanel"
+          aria-labelledby="website-tab"
+        >
           <div class="d-flex justify-content-between align-items-center mt-2">
             <div class="w-custom">
-             <h2 class="text-tehco-blue"><bdi class="text-dark">طراحی </bdi> وبسایت</h2>
-             <h5 class="mb-3 head-services text-center text-md-start">با طرحی سایت کسب و کارتان را رونق و توسعه دهید.</h5>
-            <div class="w-100 text-justify-services">
-             <span class="text-services">وب سایت شما اولین تعامل کاربر با کسب و کار شماست. با طراحی سایت برای کسب و کارتان، شما می توانید به صورت ۲۴ ساعته با مخاطبان خود در ارتباط باشید و همواره ویترین زیبایی از محصولات و خدمات خود را به مشتریان ارائه دهید. داشتن وب سایت حرفهای اعتماد کاربر را جلب میکند و باعث افزایش فروش میشود. تهکو با داشتن تیم جوان و خلاق در طراحی سایت میتواند شما را به اهداف اصلی کسب وکار خود برساند. قدم اول در طراحی سایت مشاوره تخصصی و رایگان برای کسب و کار شماست. به علاوه با این کار، شما می توانید ارتباطی تعاملی و دو سویه با کاربران, و مشتریان خود برقرار کنید که تأثیر بسزایی در برندسازی شما خواهد داشت. </span>
-             <br>
-             <div class="w-100 d-flex justify-content-start"><button class="more-info text-white text-center d-flex justify-content-center align-items-center">  اطلاعات بیشتر <i class="fa fa-arrow-left icon-services ms-2" ></i></button></div>
-             <img class="img-services-mobile d-block d-md-none " src="img/website-content.jpg"/>
-            </div> 
+              <h2 class="text-tehco-blue">
+                <bdi class="text-dark">طراحی </bdi> وبسایت
+              </h2>
+              <h5 class="mb-3 head-services text-center text-md-start">
+                با طرحی سایت کسب و کارتان را رونق و توسعه دهید.
+              </h5>
+              <div class="w-100 text-justify-services">
+                <span class="text-services"
+                  >وب سایت شما اولین تعامل کاربر با کسب و کار شماست. با طراحی
+                  سایت برای کسب و کارتان، شما می توانید به صورت ۲۴ ساعته با
+                  مخاطبان خود در ارتباط باشید و همواره ویترین زیبایی از محصولات
+                  و خدمات خود را به مشتریان ارائه دهید. داشتن وب سایت حرفهای
+                  اعتماد کاربر را جلب میکند و باعث افزایش فروش میشود. تهکو با
+                  داشتن تیم جوان و خلاق در طراحی سایت میتواند شما را به اهداف
+                  اصلی کسب وکار خود برساند. قدم اول در طراحی سایت مشاوره تخصصی و
+                  رایگان برای کسب و کار شماست. به علاوه با این کار، شما می
+                  توانید ارتباطی تعاملی و دو سویه با کاربران, و مشتریان خود
+                  برقرار کنید که تأثیر بسزایی در برندسازی شما خواهد داشت.
+                </span>
+                <br />
+                <div class="w-100 d-flex justify-content-start">
+                  <button
+                    class="more-info text-white text-center d-flex justify-content-center align-items-center"
+                  >
+                    اطلاعات بیشتر
+                    <i class="fa fa-arrow-left icon-services ms-2"></i>
+                  </button>
+                </div>
+                <img
+                  class="img-services-mobile d-block d-md-none"
+                  src="img/website-content.jpg"
+                />
+              </div>
             </div>
-            <div class="w-50 d-none d-md-flex justify-content-center"><img class="img-seo-services" src="img/website-content.jpg"/></div>
-           </div>
-        </div>
-        <div class="tab-pane fade" id="app" role="tabpanel" aria-labelledby="app-tab">
-          <div class="d-flex justify-content-between align-items-center mt-2">
-            <div class="w-custom">
-             <h2 class="text-tehco-blue"><bdi class="text-dark">طراحی </bdi> اپلیکیشن</h2>
-             <h5 class="mb-3 head-services text-center text-md-start">تجربه با طراحی اپلیکیشن خدمات خود را در دست مخاطب بگذارید. </h5>
-            <div class="w-100 text-justify-services">
-             <span class="text-services">اپلیکیشن موبایل یک راه عالی برای ارائه خدمات شما به کاربر است .
-              فرقی نمیکند خدمات شما چیست و در چه حوزهای کار میکنید، اپلیکیشن کاربردی متناسب با کسب و کار شما میتواند سود شما را چندین برابر کند. شناخت بهترین راه برای موفقیت کسب و کار شما تخصص ماست. ما با آنالیز کامل کسب و کار شما بهترین پیشنهاد را برای ساخت اپلیکیشن برای شما داریم. ما در طراحی و توسعه اپلیکیشنهای موبایل اختصاصی، قدرتمند و طراحی کاربر پسند با توجه با کسب و کار، همراه شما خواهیم بود. </span>
-              <br>
-              <div class="w-100 d-flex justify-content-start"><button class="more-info text-white text-center d-flex justify-content-center align-items-center">  اطلاعات بیشتر <i class="fa fa-arrow-left icon-services ms-2" ></i></button></div>
-              <img class="img-services-mobile d-block d-md-none " src="img/app-content.jpg"/>
-            </div> 
+            <div class="w-50 d-none d-md-flex justify-content-center">
+              <img class="img-seo-services" src="img/website-content.jpg" />
             </div>
-            <div class="w-50 d-none d-md-flex justify-content-centerr"><img class="img-seo-services" src="img/app-content.jpg"/></div>
-           </div>
-        </div>
-        <div class="tab-pane fade" id="organization" role="tabpanel" aria-labelledby="organization-tab">
-          <div class="d-flex justify-content-between align-items-center mt-2">
-            <div class="w-custom">
-             <h2 class="text-tehco-blue"><bdi class="text-dark">راهکارهای  </bdi>  اداری و سازمانی</h2>
-            <div class="w-100 text-justify-services">
-             <span class="text-services">
-            امروزه، برای مدیران شرکت های بزرگ و کوچک ضروری می باشد تا پیشرفت مدیریتی خود و میزان یکپارچگی عملکرد سازمان با استراتژی ها را اندازه گیری نمایند .<br>
-              با افزایش جمعیت و گسترش تکنولوژی، نیاز به استفاده از ابزارهای کاربردی برای مدیریت کارآمدتر، در سازمان ها احساس می شود. سازمان ها برای رفع نیازهای امروز خود از جمله مدیریت پروژه ها، دسترسی به اطلاعات، همکاری درون سازمانی، ارتباط با مشتریان، توانمندسازی کارکنان، یکپارچگی سیستم و غیره به دنبال راهکارهایی با حداکثر کارایی می باشند .<br>
-              CRM تهکو نرم افزاری است بر پایه پلتفرم های وب که این امکان را برای مدیVان و صاحبان کسب و کار خود منحصر به فرد خود این امکان ر کار فراهم آورده است تا نیازهای سازمانی و همچنین ارتباط با مشتریان و مخاطبین سازمان و بررسی در خواست ها را رفع تا بهره وری و کارایی را در کسب و کار های خود افزایش دهند. سازمان های امروزی به این درک رسیده اند که برای ارتقای بهره وری و جایگاه خود، نیازمند بکارگیری ابزارهای قوی و به روز در زمینه فناوری اطلاعات و ارتباطات درون و برون سازمانی می باشند. که CRM تهکو راهکاری است در حفظ رضایت مشتری و همچنین توسعه کسب و کار و ارائه خدمات سریع تر به مشتریان است.  
-            </span>
-            <br>
-            <div class="w-100 d-flex justify-content-start"><button class="more-info text-white text-center d-flex justify-content-center align-items-center">  اطلاعات بیشتر <i class="fa fa-arrow-left icon-services ms-2" ></i></button></div>
-            <img class="img-services-mobile d-block d-md-none " src="img/organization-content.jpg"/>
-            </div> 
-            </div>
-            <div class="w-50 d-none d-md-flex justify-content-center"><img class="img-seo-services" src="img/organization-content.jpg"/></div>
-           </div>
-        </div>
-        <div class="tab-pane fade" id="host" role="tabpanel" aria-labelledby="host-tab">
-           <div class="d-flex justify-content-between align-items-center mt-2">
-          <div class="w-custom">
-           <h2 class="text-tehco-blue"><bdi class="text-dark">هاست و </bdi> سرور</h2>
-          <div class="w-100 text-justify-services">
-           <span class="text-services">
-            با تهیه هاست و سرور از تهکو، با هزینه های مقرون به صرفه یک میزبانی مطمئن با سرعت مناسب با دسترسی پذیری بالا برای تمام مشتریان که دارای کسب و کار و یا سازمان و… می باشند خدماتی با مقیاس های کوچک وبزرگ قابل فراهم است.<br>
-    تهکو می تواند خدمات میزبانی وب کسب و کار یا سازمان شما را با توجه به اندازه خدمات شما به مخاطبین خود پیشنهاد دهد بنابراین این خدمات در تهکو فراهم است که خدمات مشاوره رایگان در امور تهیه فضای میزبانی ( هاست وسرور) همچنین خدمات ثبت دامنه با توجه به خواسته های شما پس از طراحی سایت یا تولید برنامه های واسط موبایل و… انجام دهد و همچنبن خدمات میزبانی تهکو دارای پشتیبانی 7*24 می باشد. </span>
-          </div> 
-          <img class="img-services-mobile d-block d-md-none " src="img/host-content.jpg"/>
           </div>
-          <div class="w-50 d-none d-md-flex justify-content-center"><img class="img-seo-services" src="img/host-content.jpg"/></div>
-         </div></div>
-        <div class="tab-pane fade" id="network" role="tabpanel" aria-labelledby="network-tab">
-          <div class="d-flex justify-content-between align-items-center mt-2">
-            <div class="w-custom ">
-             <h2 class="text-tehco-blue"><bdi class="text-dark">شبکه و  </bdi> زیرساخت</h2>
-            <div class="w-100 text-justify-services">
-             <span class="text-services">
-              شرکت تهکو با داشتن کادر مجرب و متخصص در امور شبکه و زیر ساخت با تحلیل و ارائه راهکارهای مناسب و مقرون به صرفه خواهد توانست با توجه به نیازها و اندازه سازمان یا کسب و کار شما، چناچه نیاز به ارتباطات داخلی سیستمی و یکپارچه درون سازمانی باشد به همراه مشاوره رایگان و همچنین تحلیل های نیاز های اولیه شما را در ایجاد بستر زیر ساخت و ارتباطات سیستمی از جمله راهکارهای شبکه ای و ارائه سرور داخلی و ایجاد شبکه های توزیعی و هم پوشانی شده و ارتباطی، شما را یاری نماید. 
-            </span>
-            <br>
-            <div class="w-100 d-flex justify-content-start"><button class="more-info text-white text-center d-flex justify-content-center align-items-center">  اطلاعات بیشتر <i class="fa fa-arrow-left icon-services ms-2" ></i></button></div>
-            <img class="img-services-mobile d-block d-md-none " src="img/network-content.jpg"/>
-            </div> 
-            </div>
-            <div class="w-50 d-none d-md-flex justify-content-center"><img class="img-seo-services" src="img/network-content.jpg"/></div>
-           </div>
         </div>
-        <div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">
+        <div
+          class="tab-pane fade"
+          id="app"
+          role="tabpanel"
+          aria-labelledby="app-tab"
+        >
           <div class="d-flex justify-content-between align-items-center mt-2">
             <div class="w-custom">
-             <h2 class="text-tehco-blue"><bdi class="text-dark">پشتیبانی و  </bdi> وب افزار</h2>
-            <div class="w-100 text-justify-services">
-             <span class="text-services">
-              با لطف خداوند و همت تیم خلاق و جوان تهکو توانسته ایم تا به امروز پشتیبان تمام نیاز های مشتریان و خدمات ارائه شده به مخاطبین شرکت باشیم. با توجه به عملکرد و دستاوردهای پیشین از میزان رضایت مندی مشتریان عزیز این نوید را خواهیم داد که شرکت تهکو همچنان برروی خدمات خود پایداری داشته باشد و به مشتریان خود خدمات ارائه دهد. از این رو تهکو در طی مدت کوتاهی توانست جلب رضایت بسیاری از مشتریان را معطوف خود نماید و تواسته ایم نیازهای مشتریان را در کوتاه ترین زمان فراهم آوریم. تهکو برای خدمات خود برای مشتریان عزیز بصورت 7*24 خدمات رسانی خواهد کرد.  
-            </span>
-            <br>
-            <div class="w-100 d-flex justify-content-start"><button class="more-info text-white text-center d-flex justify-content-center align-items-center">  اطلاعات بیشتر <i class="fa fa-arrow-left icon-services ms-2" ></i></button></div>
-            <img class="img-services-mobile d-block d-md-none " src="img/support-content.jpg"/>
-            </div> 
+              <h2 class="text-tehco-blue">
+                <bdi class="text-dark">طراحی </bdi> اپلیکیشن
+              </h2>
+              <h5 class="mb-3 head-services text-center text-md-start">
+                تجربه با طراحی اپلیکیشن خدمات خود را در دست مخاطب بگذارید.
+              </h5>
+              <div class="w-100 text-justify-services">
+                <span class="text-services"
+                  >اپلیکیشن موبایل یک راه عالی برای ارائه خدمات شما به کاربر است
+                  . فرقی نمیکند خدمات شما چیست و در چه حوزهای کار میکنید،
+                  اپلیکیشن کاربردی متناسب با کسب و کار شما میتواند سود شما را
+                  چندین برابر کند. شناخت بهترین راه برای موفقیت کسب و کار شما
+                  تخصص ماست. ما با آنالیز کامل کسب و کار شما بهترین پیشنهاد را
+                  برای ساخت اپلیکیشن برای شما داریم. ما در طراحی و توسعه
+                  اپلیکیشنهای موبایل اختصاصی، قدرتمند و طراحی کاربر پسند با توجه
+                  با کسب و کار، همراه شما خواهیم بود.
+                </span>
+                <br />
+                <div class="w-100 d-flex justify-content-start">
+                  <button
+                    class="more-info text-white text-center d-flex justify-content-center align-items-center"
+                  >
+                    اطلاعات بیشتر
+                    <i class="fa fa-arrow-left icon-services ms-2"></i>
+                  </button>
+                </div>
+                <img
+                  class="img-services-mobile d-block d-md-none"
+                  src="img/app-content.jpg"
+                />
+              </div>
             </div>
-            <div class="w-50 d-none d-md-flex justify-content-center"><img class="img-seo-services" src="img/support-content.jpg"/></div>
-           </div>
+            <div class="w-50 d-none d-md-flex justify-content-centerr">
+              <img class="img-seo-services" src="img/app-content.jpg" />
+            </div>
+          </div>
         </div>
-     
+        <div
+          class="tab-pane fade"
+          id="organization"
+          role="tabpanel"
+          aria-labelledby="organization-tab"
+        >
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <div class="w-custom">
+              <h2 class="text-tehco-blue">
+                <bdi class="text-dark">راهکارهای </bdi> اداری و سازمانی
+              </h2>
+              <div class="w-100 text-justify-services">
+                <span class="text-services">
+                  امروزه، برای مدیران شرکت های بزرگ و کوچک ضروری می باشد تا
+                  پیشرفت مدیریتی خود و میزان یکپارچگی عملکرد سازمان با استراتژی
+                  ها را اندازه گیری نمایند .<br />
+                  با افزایش جمعیت و گسترش تکنولوژی، نیاز به استفاده از ابزارهای
+                  کاربردی برای مدیریت کارآمدتر، در سازمان ها احساس می شود.
+                  سازمان ها برای رفع نیازهای امروز خود از جمله مدیریت پروژه ها،
+                  دسترسی به اطلاعات، همکاری درون سازمانی، ارتباط با مشتریان،
+                  توانمندسازی کارکنان، یکپارچگی سیستم و غیره به دنبال راهکارهایی
+                  با حداکثر کارایی می باشند .<br />
+                  CRM تهکو نرم افزاری است بر پایه پلتفرم های وب که این امکان را
+                  برای مدیVان و صاحبان کسب و کار خود منحصر به فرد خود این امکان
+                  ر کار فراهم آورده است تا نیازهای سازمانی و همچنین ارتباط با
+                  مشتریان و مخاطبین سازمان و بررسی در خواست ها را رفع تا بهره
+                  وری و کارایی را در کسب و کار های خود افزایش دهند. سازمان های
+                  امروزی به این درک رسیده اند که برای ارتقای بهره وری و جایگاه
+                  خود، نیازمند بکارگیری ابزارهای قوی و به روز در زمینه فناوری
+                  اطلاعات و ارتباطات درون و برون سازمانی می باشند. که CRM تهکو
+                  راهکاری است در حفظ رضایت مشتری و همچنین توسعه کسب و کار و
+                  ارائه خدمات سریع تر به مشتریان است.
+                </span>
+                <br />
+                <div class="w-100 d-flex justify-content-start">
+                  <button
+                    class="more-info text-white text-center d-flex justify-content-center align-items-center"
+                  >
+                    اطلاعات بیشتر
+                    <i class="fa fa-arrow-left icon-services ms-2"></i>
+                  </button>
+                </div>
+                <img
+                  class="img-services-mobile d-block d-md-none"
+                  src="img/organization-content.jpg"
+                />
+              </div>
+            </div>
+            <div class="w-50 d-none d-md-flex justify-content-center">
+              <img
+                class="img-seo-services"
+                src="img/organization-content.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="host"
+          role="tabpanel"
+          aria-labelledby="host-tab"
+        >
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <div class="w-custom">
+              <h2 class="text-tehco-blue">
+                <bdi class="text-dark">هاست و </bdi> سرور
+              </h2>
+              <div class="w-100 text-justify-services">
+                <span class="text-services">
+                  با تهیه هاست و سرور از تهکو، با هزینه های مقرون به صرفه یک
+                  میزبانی مطمئن با سرعت مناسب با دسترسی پذیری بالا برای تمام
+                  مشتریان که دارای کسب و کار و یا سازمان و… می باشند خدماتی با
+                  مقیاس های کوچک وبزرگ قابل فراهم است.<br />
+                  تهکو می تواند خدمات میزبانی وب کسب و کار یا سازمان شما را با
+                  توجه به اندازه خدمات شما به مخاطبین خود پیشنهاد دهد بنابراین
+                  این خدمات در تهکو فراهم است که خدمات مشاوره رایگان در امور
+                  تهیه فضای میزبانی ( هاست وسرور) همچنین خدمات ثبت دامنه با توجه
+                  به خواسته های شما پس از طراحی سایت یا تولید برنامه های واسط
+                  موبایل و… انجام دهد و همچنبن خدمات میزبانی تهکو دارای پشتیبانی
+                  7*24 می باشد.
+                </span>
+              </div>
+              <img
+                class="img-services-mobile d-block d-md-none"
+                src="img/host-content.jpg"
+              />
+            </div>
+            <div class="w-50 d-none d-md-flex justify-content-center">
+              <img class="img-seo-services" src="img/host-content.jpg" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="network"
+          role="tabpanel"
+          aria-labelledby="network-tab"
+        >
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <div class="w-custom">
+              <h2 class="text-tehco-blue">
+                <bdi class="text-dark">شبکه و </bdi> زیرساخت
+              </h2>
+              <div class="w-100 text-justify-services">
+                <span class="text-services">
+                  شرکت تهکو با داشتن کادر مجرب و متخصص در امور شبکه و زیر ساخت
+                  با تحلیل و ارائه راهکارهای مناسب و مقرون به صرفه خواهد توانست
+                  با توجه به نیازها و اندازه سازمان یا کسب و کار شما، چناچه نیاز
+                  به ارتباطات داخلی سیستمی و یکپارچه درون سازمانی باشد به همراه
+                  مشاوره رایگان و همچنین تحلیل های نیاز های اولیه شما را در
+                  ایجاد بستر زیر ساخت و ارتباطات سیستمی از جمله راهکارهای شبکه
+                  ای و ارائه سرور داخلی و ایجاد شبکه های توزیعی و هم پوشانی شده
+                  و ارتباطی، شما را یاری نماید.
+                </span>
+                <br />
+                <div class="w-100 d-flex justify-content-start">
+                  <button
+                    class="more-info text-white text-center d-flex justify-content-center align-items-center"
+                  >
+                    اطلاعات بیشتر
+                    <i class="fa fa-arrow-left icon-services ms-2"></i>
+                  </button>
+                </div>
+                <img
+                  class="img-services-mobile d-block d-md-none"
+                  src="img/network-content.jpg"
+                />
+              </div>
+            </div>
+            <div class="w-50 d-none d-md-flex justify-content-center">
+              <img class="img-seo-services" src="img/network-content.jpg" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="support"
+          role="tabpanel"
+          aria-labelledby="support-tab"
+        >
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <div class="w-custom">
+              <h2 class="text-tehco-blue">
+                <bdi class="text-dark">پشتیبانی و </bdi> وب افزار
+              </h2>
+              <div class="w-100 text-justify-services">
+                <span class="text-services">
+                  با لطف خداوند و همت تیم خلاق و جوان تهکو توانسته ایم تا به
+                  امروز پشتیبان تمام نیاز های مشتریان و خدمات ارائه شده به
+                  مخاطبین شرکت باشیم. با توجه به عملکرد و دستاوردهای پیشین از
+                  میزان رضایت مندی مشتریان عزیز این نوید را خواهیم داد که شرکت
+                  تهکو همچنان برروی خدمات خود پایداری داشته باشد و به مشتریان
+                  خود خدمات ارائه دهد. از این رو تهکو در طی مدت کوتاهی توانست
+                  جلب رضایت بسیاری از مشتریان را معطوف خود نماید و تواسته ایم
+                  نیازهای مشتریان را در کوتاه ترین زمان فراهم آوریم. تهکو برای
+                  خدمات خود برای مشتریان عزیز بصورت 7*24 خدمات رسانی خواهد کرد.
+                </span>
+                <br />
+                <div class="w-100 d-flex justify-content-start">
+                  <button
+                    class="more-info text-white text-center d-flex justify-content-center align-items-center"
+                  >
+                    اطلاعات بیشتر
+                    <i class="fa fa-arrow-left icon-services ms-2"></i>
+                  </button>
+                </div>
+                <img
+                  class="img-services-mobile d-block d-md-none"
+                  src="img/support-content.jpg"
+                />
+              </div>
+            </div>
+            <div class="w-50 d-none d-md-flex justify-content-center">
+              <img class="img-seo-services" src="img/support-content.jpg" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
- <!-- Cooperation section  -->
- <div id="cooperation" class="d-flex align-items-center position-relative my-5">
-    <div class="cooperation-child ps-5 ms-5">
-      <h1 class="text-white head-cooperation">تهکو برای همکاری، اعلام آمادگی می نماید. </h1>
-      <h5 class="announce mt-3">جهت ارتباط و استعلام می توانید اقدام نمایید.</h5>
+    <!-- Cooperation section  -->
+    <div dir="rtl">
+      <div
+        id="cooperation"
+        class="d-flex align-items-center position-relative my-5"
+      >
+        <div class="cooperation-child">
+          <h1 class="text-white head-cooperation">
+            تهکو برای همکاری، اعلام آمادگی می نماید.
+          </h1>
+          <h5 class="announce mt-3">
+            جهت ارتباط و استعلام می توانید اقدام نمایید.
+          </h5>
+        </div>
+        <button
+          class="contact-us-button position-absolute bg-light text-center"
+        >
+          ارتباط با ما
+        </button>
+      </div>
     </div>
-    <button class="contact-us-button position-absolute bg-light text-center">ارتباط با ما</button>
- </div>
- <!-- Footer section  -->
- <div id="footer" class="pt-5">
-  <div class="container-xxl container-xl container-lg">
-    <div class=" d-flex justify-content-between">
-      <div class="about-us">
-        <div class="fff head-about">
-          <p class="headFoot">  درباره ما</p>
-          <div class="divider2"></div>
-         </div>
-         <div class="w-100 justify-content-between d-flex">
-          <img src="img/net-logo.png" class="net-icon"/>
-          <div class="text-justify">
-            شركت توسعه ارتباطات هيركان به اختصار (تهکو) به شناسه ملی 14001987942 با اتکا بر علم و هنر مدیريت در حوزه فناوري اطلاعات و ارتباطات با هدف استفاده از فرصت هاي نوین تجارت الكترونيك وكسب و كار، ایجاد بستر مناسب و ایمن جهت ترویج بهترین و به روزترین علوم و فنون طراحی و تبلیغات، خدمات و فعالیت های خود را به نحو احسن عرضه می کند.
+
+    <!-- _______________________________________________  Slick _____________________________________________________ -->
+
+    <div class="mx-5 mb-2">
+      <div class="slider">
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url('img/tonekabon-slick.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end slick-height"
+            ></div>
+          </div>
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url('img/shahrdari-slick.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end slick-height"
+            ></div>
+          </div>
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url('img/noshahr-slick.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end slick-height"
+            ></div>
+          </div>
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url('img/jangal-slick.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end slick-height"
+            ></div>
+          </div>
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url('img/dr-slick.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end slick-height"
+            ></div>
+          </div>
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url('img/bargh-slick.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end slick-height"
+            ></div>
           </div>
         </div>
       </div>
-      <div class="license  d-flex flex-column">
-        <div class="fff  head-about">
-          <p class="headFoot"> مجوزها</p>
-         <div class="divider2"></div>
-         </div>
-        <div class="d-flex justify-content-between">
-          <img src="img/samandehi-logo.png" class="logo me-1"/>
-          <img src="img/nezam-logo.png" class="logo"/>
+    </div>
+    <!-- Footer section  -->
+    <div id="footer" class="pt-5 pb-1" dir="rtl">
+      <div class="container-xxl container-xl container-lg my-2">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-between"
+        >
+          <div class="about-us">
+            <div class="fff head-about">
+              <p class="headFoot">درباره ما</p>
+              <div class="divider2"></div>
+            </div>
+            <div class="w-100 justify-content-between d-flex">
+              <img src="img/net-logo.png" class="net-icon" />
+              <div class="text-justify">
+                شركت توسعه ارتباطات هيركان به اختصار (تهکو) به شناسه ملی
+                14001987942 با اتکا بر علم و هنر مدیريت در حوزه فناوري اطلاعات و
+                ارتباطات با هدف استفاده از فرصت هاي نوین تجارت الكترونيك وكسب و
+                كار، ایجاد بستر مناسب و ایمن جهت ترویج بهترین و به روزترین علوم
+                و فنون طراحی و تبلیغات، خدمات و فعالیت های خود را به نحو احسن
+                عرضه می کند.
+              </div>
+            </div>
+          </div>
+          <div class="license d-flex flex-column">
+            <div class="fff head-about">
+              <p class="headFoot">مجوزها</p>
+              <div class="divider2"></div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <img src="img/samandehi-logo.png" class="logo me-1" />
+              <img src="img/nezam-logo.png" class="logo" />
+            </div>
+          </div>
+          <div class="contact-info">
+            <div class="fff head-about">
+              <p class="headFoot">اطلاعات تماس</p>
+              <div class="divider2"></div>
+            </div>
+            <div class="d-flex flex-column text-justify">
+              <div class="d-flex flex-column flex-md-row align-items-center">
+                <div class="contact-icon me-3">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-us-info mt-2 mt-md-0">
+                  آدرس دفتر گرگان: خیابان ولیعصر، عدالت 21، کمانگری 5، مجتمع
+                  نگاران طبقه دو، واحد غربی
+                </div>
+              </div>
+              <div
+                class="d-flex mt-2 flex-column flex-md-row align-items-center justify-content-center"
+              >
+                <div class="contact-icon me-3">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-us-info my-2 my-md-0">
+                  تلفن: 02191307651
+                </div>
+              </div>
+              <div
+                class="d-flex mt-2 flex-column flex-md-row align-items-center justify-content-center"
+              >
+                <div class="contact-icon me-3">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="contact-us-info my-2 my-md-0">
+                  ایمیل: info@tehco.ir
+                </div>
+              </div>
+              <div
+                class="d-flex mt-2 flex-column flex-md-row align-items-center justify-content-center"
+              >
+                <div class="contact-icon me-3">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <div class="contact-us-info my-2 my-md-0">
+                  اینستاگرام: tehco.ir
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="contact-info">
-     
-        <div class="fff  head-about">
-          <p class="headFoot"> اطلاعات تماس</p>
- <div class="divider2"></div>
-         </div>
-         <div class="d-flex flex-column text-justify">
-          <div class="d-flex ">
-            <div class="contact-icon me-3"><i class="	fas fa-map-marker-alt"></i></div><div class="contact-us-info">آدرس دفتر گرگان: خیابان ولیعصر، عدالت 21، کمانگری 5،  مجتمع نگاران طبقه دو، واحد غربی </div>
+      <div class="copyright-container mt-4 py-3">
+        <div
+          class="container-xxl container-xl container-lg d-flex justify-content-between flex-column flex-md-row align-items-center"
+        >
+          <div class="text-center">
+            © کپی رایت ۲۰۲۳ - تمامی حقوق وب سایت متعلق به شرکت
+            <a class="text-a" target="_blank" href="http://www.tehco.ir"
+              >توسعه ارتباطات هیرکان (تهکو)</a
+            >
+            می باشد.
           </div>
-          <div class="d-flex mt-2">
-            <div class="contact-icon me-3"><i class="fas fa-phone"></i></div><div class="contact-us-info">تلفن: 02191307651</div>
-          </div>
-          <div class="d-flex mt-2">
-            <div class="contact-icon me-3"><i class="fa fa-envelope"></i></div><div class="contact-us-info">ایمیل: info@tehco.ir </div>
-          </div>
-          <div class="d-flex mt-2">
-            <div class="contact-icon me-3"><i class="fab fa-instagram"></i></div><div class="contact-us-info">اینستاگرام: tehco.ir</div>
-          </div>
-         </div>
+          <div>تبلیغات<bdi class="mx-2">-----</bdi>سیاست حریم خصوصی</div>
+        </div>
       </div>
     </div>
-  
-  </div>
-  <div class="copyright-container mt-4 py-3">
-    <div class="container-xxl container-xl container-lg d-flex justify-content-between">
-    <div>© کپی رایت ۲۰۲۳ - تمامی حقوق وب سایت متعلق به شرکت  <a class="text-a" target="_blank" href="http://www.tehco.ir">توسعه ارتباطات هیرکان (تهکو)</a> می باشد.</div>
-    <div>   تبلیغات<bdi class="mx-2">-----</bdi>سیاست حریم خصوصی</div>
-  </div>
-</div>
- </div>
-</body>
- <!-- Option 1: Bootstrap Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-  integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-  crossorigin="anonymous"></script>
-<script type="text/javascript">
-  $('.autoplay').slick({
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  });
-
-</script>
-
-
-
-</script>
-
-<script src="./js/jquery-3.2.1.slim.min.js"></script>
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="script.js"></script>
-
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ___________ Slick Slider ______________ -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script>
+      $(".slider").slick({
+        centerMode: true,
+        dots: false,
+        autoplay: true,
+        centerPadding: "10px",
+        slidesToShow: 5,
+        Infinity: true,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "5px",
+              Infinity: true,
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "5px",
+              Infinity: true,
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>
